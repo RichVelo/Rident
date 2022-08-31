@@ -55,6 +55,15 @@ footer,
     background-color: var(--color);
 }
 
+.blank {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
 footer{
     display: flex;
     flex-direction: row;
@@ -103,7 +112,7 @@ ul {
 }
 
 .img-first {
-    background-image: url(images/p5pb18075667.jpg);
+    background-image: url(images/p5pb21361883.jpg);
 }
 
 .img-second {
@@ -111,7 +120,7 @@ ul {
 }
 
 .img-third {
-    background-image: url(images/p5pb21361883.jpg);
+    background-image: url(images/p5pb18075667.jpg);
 }
 
 .second {
