@@ -2,66 +2,86 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>rident cc</title>
-    <link rel="stylesheet" href="style.css">
+    <title>RIDENT CC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
 </head>
 <body>
-    <div class="container">
+    <section class="container">
         <h1>Rident</h1>
         <h2>MTB Coaching. Lets Ride!</h2>
-    </div>
+    </section>
 
-    <div class="blank"><h2>We will coach you from stablisers to sending it at Whistler!</h2>
-        <div class="options">
+    <section class="explainer">
+        <div class="explainer-text">Looking for an effective way to improve your Mountain Biking skills? Look no further than our coaching service!
+        Our experienced coaches will help you achieve your goals, whether that's riding faster or mastering new trails or sending it!
+        Reach out now for a free consultation and a chat.</div>
 
+        <div id="testimonials">
+            <h2>Check out what our riders think!</h2>
         </div>
-    </div>
+    </section>
 
-    <div class="container second">
-        <div class="item">
+    <section class="container second">
+        <div class="cards">
             <div class="img img-first"></div>
-            <div class="card">
-                <h3>Basic Technique</h3>
-                <p>We'll get you to a level of confidence to hit flowy trails</p>
-                <a href="#">Book Now</a>
+            <div class="card-content">
+                <h3 class="card-title">Basic Technique</h3>
+                <div class="card-text">We'll get you to a level of confidence to hit flowy trails</div>
+                <div class="button">Book Now</div>
             </div>
         </div>
 
-        <div class="item">
+        <div class="cards">
             <div class="img img-second"></div>
-            <div class="card">
-                <h3>Ride Technical</h3>
-                <p>Time for some rougher trails: Rock Gardens, Drops & Kickers</p>
-                <a href="#">Book Now</a>
+            <div class="card-content">
+                <h3 class="card-title">Ride Technical</h3>
+                <div class="card-text">Time for some rougher trails: Rock Gardens, Drops & Kickers</div>
+                <div class="button">Book Now</div>
             </div>
         </div>
 
-        <div class="item">
+        <div class="cards">
             <div class="img img-third"></div>
-            <div class="card">
-                <h3>Lets send it</h3>
-                <p>Learn the art of flight: not ticket required</p>
-                <a href="#">Book Now</a>
+            <div class="card-content">
+                <h3 class="card-title">Send it</h3>
+                <div class="card-text">Learn the art of flight: no ticket required</div>
+                <div class="button">Book Now</div>
             </div>
         </div>
-    </div>
-
-    <footer>
-        <div class="footer-page-links">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Store</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+    </section>
+    <section class="mailing-sign-up">
+        <div id="mailing-list">
+            <form id="subscribe" class="subscribe-form" action="#" method="post">
+                <input id="email-input" class="email-input" type="email" placeholder="Enter your email address to signup to our newsletter..." aria-required="true">
+                <input id="subscribe-button" class="subscribe-button" type="button" value="Subscribe" name="subscribe">
+            </form>
         </div>
-        <div class="footer-socials-links">
-            <ul>
-                <li><a href="#">Insta</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">YouTube</a></li>
-            </ul>
+    </section>
+    <footer>
+        <div class="courses">
+            <h3>COURSES</h3>
+            <a href="#">Basic Technique</a>
+            <a href="#">Ride Technical</a>
+            <a href="#">Send it</a>
+        </div>
+        <div class="useful">
+            <h3>USEFUL</h3>
+            <a href="#">Contact</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy</a>
+        </div>
+        <div class="socials-links">
+            <h3>SOCIALS</h3>
+            <a href="#" class="insta">Instagram</a>
+            <a href="#" class="twit">Twitter</a>
+            <a href="#" class="YT">YouTube</a>
         </div>
     </footer>
 </body>
